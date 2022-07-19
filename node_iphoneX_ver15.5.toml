@@ -1,0 +1,14 @@
+[server]
+port = 5566
+
+[node]
+detect_drivers = false
+# override-max-sessions = true
+# max-sessions = 15
+
+[relay]
+url = "http://localhost:4734/wd/hub"
+status-endpoint = "/status"
+configs = [
+	"1", '{"browserName": "safari", "platformName": "iOS","deviceName": "iPhone X", "appium:platformVersion": "15.5"}'
+]
