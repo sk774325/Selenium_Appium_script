@@ -5,6 +5,6 @@ node_dir=`ls ./*.toml`
 for eachfile in $node_dir
 do
 	osascript -e 'tell app "Terminal"
-		do script "cd Desktop/node_script && java -jar selenium-server-'"$1"'.jar node --config '"$eachfile"'"
+		do script "java -jar selenium-server-'"$1"'.jar node --config '"$eachfile"'"
 	end tell'
 done

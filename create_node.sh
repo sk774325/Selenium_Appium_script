@@ -4,7 +4,7 @@
 # $2 is server port start from.
 server_port=$2
 appium_port=4723
-iphone=("13 PRO MAX" "13 PRO" "13" "12 PRO MAX" "12 PRO" "12" "11 PRO MAX" "11 PRO" "11" "XS" "XR" "X")
+iphone=("13 Pro Max" "13 Pro" "13" "12 Pro Max" "12 Pro" "12" "11 Pro Max" "11 Pro" "11" "XR" "8")
 for ((i = 0; i < ${#iphone[@]}; i++));
 do
 if [ ${#iphone[$i]} -gt 6 ]
